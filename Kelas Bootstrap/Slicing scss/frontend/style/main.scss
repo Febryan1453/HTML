@@ -1,0 +1,203 @@
+*{    
+    font-family: 'Asap', sans-serif;
+}
+body{
+    background-color: #FAFAFF !important;
+}
+
+.bg-nav{
+    background-color: #16495C;
+    nav{
+        padding:30px 0 0;
+
+        .navbar-toggler{
+            color: #B0C3C9;
+        }
+
+        ul{
+            li{
+                .nav-link{
+                    color: #B0C3C9 !important;
+                    margin-left: 20px;
+                    &:hover{
+                        font-weight: bold;
+                        color: #F2AD5F !important;
+                    }
+                }                
+                .active{
+                    color: #F2AD5F !important;
+                    font-weight: bold;
+                }            
+            }
+        }
+    }
+}
+
+header{
+    background-image: url('../assets/bg.png');
+    background-size:cover;
+    padding: 230px 380px;
+    margin-top: -90px;
+    p{
+        font-size: 65px;
+        color: white;
+        padding-bottom: 30px;
+    }
+    .btn-primary{
+        background-color: #F2AD5F;
+        border-color: #F2AD5F;
+        width: 170px;
+        height: 45px;
+        border-radius: 50px;
+        color: #986121;
+        &:hover{
+            background-color: #f5bf82;
+            border-color: #f5bf82;
+            width: 170px;
+            height: 45px;
+            border-radius: 50px;
+            color: #986121;
+        }
+    }
+}
+
+.ilustration{
+    margin-top: -220px;
+    .img-partner{
+        padding-top: 50px;
+    }
+}
+
+.reason{
+    padding-top: 150px;
+    .list-reason{
+        padding-left: 50px;
+        h2{
+            padding-bottom: 50px;
+            font-size: 42px;
+        }
+        ul{
+            padding-bottom: 50px;
+            li{
+                padding-bottom: 20px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                img{
+                    margin-right: 16px;
+                }
+            }
+        }
+        a{
+            color: black;
+        }
+    }
+}
+
+.featured{
+    padding-top: 150px;
+    .title {
+        padding-bottom: 70px;
+        h2{
+            font-size: 42px;
+        }        
+    }
+
+    .card{
+        height: 382px;
+        border-radius: 15px;
+        border-color: white;
+        box-shadow: 10px 10px 14px 5px #F7F7FC;
+        .card-body{
+            margin: 5px;
+            table{
+                .nama{
+                    font-size: 22px;
+                    font-weight:400;
+                }
+                .lokasi{
+                    padding-top: 6px;
+                    color: #CACAD2;
+                    font-size: 14px;
+                    font-weight:400;
+                }
+            }
+            .price{
+                padding: 28px 0;
+                .dollar{
+                    font-size: 48px;
+                    font-weight: medium;
+                }
+                span{
+                    font-size: 22px;
+                    font-weight: regular;
+                }
+            }
+            .experience{
+                span{
+                    font-size: 22px;
+                    font-weight: regular;
+                }
+            }
+            .tombol{
+                padding-top: 10px;
+                .btn-dark{
+                    color: #65D9E4;
+                    font-size: 14px;
+                    font-weight: medium;
+                    background-color: #EBFAFC;
+                    border-color: #EBFAFC;
+                }
+            }
+        }
+    }
+}
+
+.view-more{
+    padding: 70px 0 150px 0;
+    text-align: center;
+    a{
+        color: black;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+// .subscribe{
+//     padding-bottom: 142px;    
+    #subsc{
+        color: white;
+        background-image: url('../assets/bg-bawah.png');
+        background-size: cover;
+        width: 720px;
+        height: 270px;
+        input{
+            width: 300px;
+        }
+    }
+// }
+
+// .subscribe{
+//     color: white;
+//     background-image: url('../assets/bg-bawah.png');
+//     background-size: cover;
+//     width: 720px;
+//     height: 270px;
+// }
+
+
+
+.belajar{
+    background-color: black;
+    .scss{
+        background-color: white;
+        &:hover{
+            color: yellow;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,477 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Toko IDN</title>    
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="cutome/style.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }      
+
+      main{
+          padding-top: 32px;
+      }
+      
+      .slider{
+          height: 100vh;
+      }      
+    
+      i{
+        padding-right: 10px;
+      }      
+
+      body{
+        padding-bottom: 0px !important;
+      }
+
+      .box{
+        border-color: 1px solid white !important;
+      }
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="cutome/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-nav">
+      <div class="container">
+          <a href="index.html"><img class="brand" src="icon/idn .png">  </a>                                 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="d-flex">
+              <button type="button" class="me-3 btn btn-outline-light border-none">Login</button>
+              <button type="button" class="btn btn-outline-light">Register</button>
+          </div>
+
+        </div>
+
+      </div>
+    </nav> 
+    
+    <!-- <nav class="navbar navbar-expand-lg navbar-light py-4 navbar-nd">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+            <img src="https://buildwithangga.com/themes/front/images/logo_bwa_new.svg" width="50" height="50" class="d-inline-block align-top me-5" alt="logo buildwithangga">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="basic-menus navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown d-block d-sm-none">
+                        <form class="search search-top mb-2" action="https://buildwithangga.com/search?keyword=&category=&type=">
+                        <input type="text" value="" name="keyword" minlength="2" required placeholder="Mau cari kelas apa?" autofocus class="form-control">
+                        </form>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://buildwithangga.com/sale">
+                        Flash Sale
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">                
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kelas
+                        </a>
+
+                        <ul class="dropdown-menu mega-menu-nd" aria-labelledby="navbarDropdown">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-12">                        
+                                    <li class="item-menu">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="https://buildwithangga.com/themes/front/images/ic_appcode.svg" class="icon">
+                                            <p class="title">Kelas Koding</p>
+                                            <p class="subtitle">Full-Stack Developer</p>
+                                        </a>
+                                    </li>
+
+                                    <li class="item-menu">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="https://buildwithangga.com/themes/front/images/ic_softskills.svg" class="icon">
+                                            <p class="title">Kelas Soft Skills</p>
+                                            <p class="subtitle">Tingkatkan keahlian diri</p>
+                                        </a>
+                                    </li>
+
+                                </div>
+
+                                <div class="col-lg-6 col-12 right">
+                                    <li class="item-menu">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="https://buildwithangga.com/themes/front/images/ic_all_course.svg" class="icon">
+                                            <p class="title">Semua Kelas</p>
+                                            <p class="subtitle">Temui kelas kesukaanmu</p>
+                                        </a>
+                                    </li>
+
+                                    <li class="item-menu">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="https://buildwithangga.com/themes/front/images/ic_flag.svg" class="icon">
+                                            <p class="title">Alur Belajar</p>
+                                            <p class="subtitle">Belajar mengikuti Roadmap</p>
+                                        </a>
+                                    </li>
+                                </div>
+
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3 d-none d-sm-block">
+                        <a class="btn btn-secondary btn-search" href="#"><img src="https://buildwithangga.com/themes/front/images/ic_search.svg"></a>
+                    </li>
+
+                    <li class="nav-item me-3 wrap-btn-daftar">
+                        <a class="btn btn-secondary btn-daftar" href="#">Masuk</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav> -->
+
+
+<main>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/sale-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/sale-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sale-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sale-3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+    <section class="container mt-5 mb-5">
+      <h3 class="d-flex justify-content-between">
+        <strong>Baju Keren</strong>
+        <a href="#" class="btn btn-dark float-right"><i class="fas fa-eye"></i> Lihat Semua </a>
+      </h3>
+
+      <div class="row mt-3">
+
+        <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body text-center">
+                  <img src="img/produk/baju-1.jpg" class="img-fluid">
+                  
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                        <h5><strong>Baju</strong> </h5>
+                        <h5>Rp. 200.000</h5>
+                    </div>
+                  </div>
+
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                        <a href="detail-produk.html" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body text-center">
+                <img src="img/produk/baju-2.jpg" class="img-fluid">
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <h5><strong>Baju</strong> </h5>
+                      <h5>Rp. 200.000</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+        <div class="col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body text-center">
+                <img src="img/produk/baju-3.jpg" class="img-fluid">
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <h5><strong>Baju</strong> </h5>
+                      <h5>Rp. 200.000</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body text-center">
+                <img src="img/produk/baju-4.jpg" class="img-fluid">
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <h5><strong>Baju</strong> </h5>
+                      <h5>Rp. 200.000</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      </div>
+      
+    </section>
+
+    <section class="container mt-5 mb-5">
+      <h3 class="d-flex justify-content-between">
+        <strong>Buku Pembelajaran</strong>
+        <a href="#" class="btn btn-dark float-right"><i class="fas fa-eye"></i> Lihat Semua </a>
+      </h3>
+
+      <div class="row mt-3">
+
+        <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body text-center">
+                  <img src="img/produk/buku-1.jpg" class="img-fluid">
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                        <h5><strong>buku</strong> </h5>
+                        <h5>Rp. 200.000</h5>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body text-center">
+                <img src="img/produk/buku-2.jpg" class="img-fluid">
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <h5><strong>buku</strong> </h5>
+                      <h5>Rp. 200.000</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+        <div class="col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body text-center">
+                <img src="img/produk/buku-3.jpg" class="img-fluid">
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <h5><strong>buku</strong> </h5>
+                      <h5>Rp. 200.000</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body text-center">
+                <img src="img/produk/buku-4.jpg" class="img-fluid">
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <h5><strong>buku</strong> </h5>
+                      <h5>Rp. 200.000</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-12">
+                      <a href="#" class="btn btn-dark btn-block"><i class="fas fa-eye"></i> Detail</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      </div>
+      
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<section class="footer-color">
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</section>
+<!-- FOOTER -->
+
+
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>

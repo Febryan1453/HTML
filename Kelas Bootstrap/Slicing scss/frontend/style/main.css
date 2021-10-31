@@ -1,0 +1,212 @@
+* {
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background-color: #FAFAFF !important;
+}
+
+.bg-nav {
+  background-color: #16495C;
+}
+
+.bg-nav nav {
+  padding: 30px 0 0;
+}
+
+.bg-nav nav .navbar-toggler {
+  color: #B0C3C9;
+}
+
+.bg-nav nav ul li .nav-link {
+  color: #B0C3C9 !important;
+  margin-left: 20px;
+}
+
+.bg-nav nav ul li .nav-link:hover {
+  font-weight: bold;
+  color: #F2AD5F !important;
+}
+
+.bg-nav nav ul li .active {
+  color: #F2AD5F !important;
+  font-weight: bold;
+}
+
+header {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  padding: 230px 0 380px;
+  margin-top: -90px;
+}
+
+header p {
+  font-size: 65px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+header .btn-primary {
+  background-color: #F2AD5F;
+  border-color: #F2AD5F;
+  width: 170px;
+  height: 45px;
+  border-radius: 50px;
+  color: #986121;
+}
+
+header .btn-primary:hover {
+  background-color: #f5bf82;
+  border-color: #f5bf82;
+  width: 170px;
+  height: 45px;
+  border-radius: 50px;
+  color: #986121;
+}
+
+.ilustration {
+  margin-top: -220px;
+}
+
+.ilustration .img-partner {
+  padding-top: 50px;
+}
+
+.reason {
+  padding-top: 150px;
+}
+
+.reason .list-reason {
+  padding-left: 50px;
+}
+
+.reason .list-reason h2 {
+  padding-bottom: 50px;
+  font-size: 42px;
+}
+
+.reason .list-reason ul {
+  padding-bottom: 50px;
+}
+
+.reason .list-reason ul li {
+  padding-bottom: 20px;
+}
+
+.reason .list-reason ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.reason .list-reason ul li img {
+  margin-right: 16px;
+}
+
+.reason .list-reason a {
+  color: black;
+}
+
+.featured {
+  padding-top: 150px;
+}
+
+.featured .title {
+  padding-bottom: 70px;
+}
+
+.featured .title h2 {
+  font-size: 42px;
+}
+
+.featured .card {
+  height: 382px;
+  border-radius: 15px;
+  border-color: white;
+  -webkit-box-shadow: 10px 10px 14px 5px #F7F7FC;
+          box-shadow: 10px 10px 14px 5px #F7F7FC;
+}
+
+.featured .card .card-body {
+  margin: 5px;
+}
+
+.featured .card .card-body table .nama {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.featured .card .card-body table .lokasi {
+  padding-top: 6px;
+  color: #CACAD2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.featured .card .card-body .price {
+  padding: 28px 0;
+}
+
+.featured .card .card-body .price .dollar {
+  font-size: 48px;
+  font-weight: medium;
+}
+
+.featured .card .card-body .price span {
+  font-size: 22px;
+  font-weight: regular;
+}
+
+.featured .card .card-body .experience span {
+  font-size: 22px;
+  font-weight: regular;
+}
+
+.featured .card .card-body .tombol {
+  padding-top: 10px;
+}
+
+.featured .card .card-body .tombol .btn-dark {
+  color: #65D9E4;
+  font-size: 14px;
+  font-weight: medium;
+  background-color: #EBFAFC;
+  border-color: #EBFAFC;
+}
+
+.view-more {
+  padding: 70px 0 150px 0;
+  text-align: center;
+}
+
+.view-more a {
+  color: black;
+}
+
+.view-more a:hover {
+  color: black;
+}
+
+#subsc {
+  color: white;
+  background-image: url("../assets/bg-bawah.png");
+  background-size: cover;
+  width: 720px;
+  height: 270px;
+}
+
+#subsc input {
+  width: 300px;
+}
+
+.belajar {
+  background-color: black;
+}
+
+.belajar .scss {
+  background-color: white;
+}
+
+.belajar .scss:hover {
+  color: yellow;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,205 @@
+*{
+    // font-family: 'Farsan', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg-color: #EAEEFF;
+    // --button-color: #3287C0;
+}
+
+.bg-light{
+    background-color: var(--bg-color) !important;
+}
+
+nav{
+    padding: 20px 0 !important;
+    ul{
+        li{
+            margin-left: 35px;
+            @media (max-width:"932px") {
+                margin-left: 0px;
+            }
+            .active{
+                color: #4262D2 !important;
+            }
+            .nav-link{
+                font-weight: 500;
+                &:hover{
+                    font-weight: 500;
+                    color: #4262D2 !important;
+                }
+            }
+        }        
+    }
+}
+
+.header{ 
+    padding: 80px 0;      
+    background-color: var(--bg-color);
+    .solusi{
+        background-color: #708BED;
+        width: 35%;
+        border-radius: 50px;
+        color: white;
+    }
+    .content{
+        padding-top: 19px;
+        h1{
+            font-weight:650;
+            padding-bottom: 18px;
+            color: #4262D2;
+        }
+        p{
+            color: #676E87;
+        }
+        .tombol{
+            padding-top: 18px;
+            .btn-info{
+                color: white;
+                border: #FF7343;
+                background-color: #FF7343;
+                &:hover{
+                    border: #fc9979;
+                    background-color: #fc9979;
+                }
+            }
+            .lihat{
+                margin-left: 38px;
+                color: #676E87;
+            }
+        }
+    }
+    .carousel{
+        @media (max-width:"932px") {
+            padding-top: 70px;
+        }
+    }
+}
+
+.trust-by{
+    padding-top: 115px;
+    padding-bottom: 150px;
+    .percaya{
+        font-size: 30px;
+        font-weight: 600;
+        color: #48494F;
+    }
+    .caption{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #676E87;
+    }
+
+    .linknya{
+        color: #676E87;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .jb{
+        @media (max-width:"932px") {
+            padding-top: 65px;
+        }
+    }
+}
+
+.doit{    
+    padding-bottom: 225px;
+    h2{
+        padding-bottom: 100px;
+        font-size: 33px;
+        font-weight: 600;
+        color: #48494F;
+    }
+
+    .card{
+
+        border-radius: 20px;        
+        border: none;
+
+        .img-fluid{
+            padding-top: 25px;
+        }
+    
+        .title{
+            padding-top: 37px;
+            padding-bottom: 40px;
+            font-family: 'Roboto Slab';
+            font-size: 28px;
+            font-weight: 700;
+            color: #48494F;
+        }
+    
+        .caption{
+            color: #676E87;
+            font-family: 'Roboto Slab';
+            font-size: 17px;
+            padding-bottom: 15px;
+        }
+    }    
+}
+
+.solusi-bisnis{
+    padding-bottom: 225px;
+    .jb{
+        @media (max-width:"932px") {
+            padding-top: 65px;
+        }
+
+        h2{
+            line-height: 45px;
+            font-size: 30px;
+            font-weight: 600;
+            color: #0F1D37;
+            padding-bottom: 40px;
+        }
+        ul{
+            li{
+                padding-bottom: 10px;
+                .rata{
+                    text-align: justify;
+                }
+            }
+        }
+
+        .a-lanjut{
+            padding-top: 40px;
+            a{                
+                color: #0F1D37;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.portfolio{
+    padding-bottom: 225px;
+    h2{
+        text-align: center;
+        padding-bottom: 100px;
+        font-size: 33px;
+        font-weight: 600;
+        color: #48494F;
+    }
+    .title-portfolio{
+        padding-top: 28px;
+        font-family: 'Roboto Slab';
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.kontak{
+    h2{
+        text-align: center;
+        padding-bottom: 100px;
+        font-size: 33px;
+        font-weight: 600;
+        color: #48494F;
+    }
+}
+
